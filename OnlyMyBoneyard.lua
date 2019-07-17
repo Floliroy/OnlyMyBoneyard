@@ -65,7 +65,7 @@ function OnlyMyBoneyard.Disable()
 	EVENT_MANAGER:UnregisterForUpdate(OnlyMyBoneyard.name .. "Disable")
 end
 
-function ZO_Synergy:OnSynergyAbilityChanged()
+function SYNERGY:OnSynergyAbilityChanged()
     local synergyName, iconFilename = GetSynergyInfo()
 
     if synergyName and iconFilename then
